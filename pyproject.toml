@@ -3,13 +3,13 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "PROJECT NAME"
-description = "PROJECT DESCRIPTION"
+name = "project-name"
+description = ""
 version = "1.0.0"
 readme = "README.md"
-authors = [
-  {name = "AUTHOR", email = "EMAIL"},
-]
+#authors = [
+#  {name = "", email = ""},
+#]
 requires-python = ">=3.8"
 license = {text = "MIT"}
 classifiers = [
@@ -26,11 +26,12 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "REPO URL"
-Issues = "ISSUE URL"
+#Repository = "https://github.com/AUTHOR/REPO"
+#Issues = "https://github.com/AUTHOR/REPO/issues"
 
 #[project.scripts]
 #command_name = "module.path:function"
 
+# For single file project
 #[tool.setuptools]
 #py-modules = ["file_name"]
