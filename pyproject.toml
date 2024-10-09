@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PROJECT NAME"
+description = "PROJECT DESCRIPTION"
+version = "1.0.0"
+readme = "README.md"
+authors = [
+  {name = "AUTHOR", email = "EMAIL"},
+]
+requires-python = ">=3.8"
+license = {text = "MIT"}
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+dependencies = [
+]
+
+[project.urls]
+Repository = "REPO URL"
+Issues = "ISSUE URL"
+
+#[project.scripts]
+#command_name = "module.path:function"
+
+#[tool.setuptools]
+#py-modules = ["file_name"]
